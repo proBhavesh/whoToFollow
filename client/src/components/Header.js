@@ -22,7 +22,7 @@ const Header = () => {
 						</p>
 						<div className="mt-12 mb-0 flex ">
 							<form
-								accept-charset="UTF-8"
+								acceptCharset="UTF-8"
 								action="https://www.formbackend.com/f/0698d758eddc634e"
 								method="POST"
 								className=" flex"

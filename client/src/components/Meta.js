@@ -14,7 +14,7 @@ const Meta = ({ title, keywords, description }) => {
 };
 
 Meta.defaultProps = {
-  title: "Get Feed back for your website's UI/UX and imrove conversion rate",
+  title: "WTF - who to follow",
   keywords: "UI,UX,website feedback",
   description: "Get Feed back for your website's UI/UX and imrove conversion rate",
 };
