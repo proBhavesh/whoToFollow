@@ -15,9 +15,10 @@ const Meta = ({ title, keywords, description }) => {
       ></script>
       <script
         dangerouslySetInnerHTML={{
-          __html: `window.dataLayer = window.dataLayer || []; function gtag()
-        {dataLayer.push(arguments)}
-        gtag('js', new Date()); gtag('config', 'G-2QJKPXZ335');}`,
+          __html: `window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-2QJKPXZ335');`,
         }}
       />
 
