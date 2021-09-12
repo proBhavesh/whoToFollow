@@ -8,6 +8,16 @@ const Meta = ({ title, keywords, description }) => {
       <meta name="description" content={description} />
       <meta charSet="utf-8" />
       <link rel="icon" href="/favicon.ico" />
+      {/*<!-- Global site tag (gtag.js) - Google Analytics -->*/}
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-2QJKPXZ335"
+      ></script>
+      <script>
+        window.dataLayer = window.dataLayer || []; function gtag()
+        {dataLayer.push(arguments)}
+        gtag('js', new Date()); gtag('config', 'G-2QJKPXZ335');
+      </script>
       <title>{title}</title>
     </Head>
   );
@@ -16,7 +26,8 @@ const Meta = ({ title, keywords, description }) => {
 Meta.defaultProps = {
   title: "WTF - who to follow",
   keywords: "UI,UX,website feedback",
-  description: "Get Feed back for your website's UI/UX and imrove conversion rate",
+  description:
+    "Get Feed back for your website's UI/UX and imrove conversion rate",
 };
 
 export default Meta;
