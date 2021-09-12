@@ -13,11 +13,14 @@ const Meta = ({ title, keywords, description }) => {
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-2QJKPXZ335"
       ></script>
-      <script>
-        window.dataLayer = window.dataLayer || []; function gtag()
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `window.dataLayer = window.dataLayer || []; function gtag()
         {dataLayer.push(arguments)}
-        gtag('js', new Date()); gtag('config', 'G-2QJKPXZ335');
-      </script>
+        gtag('js', new Date()); gtag('config', 'G-2QJKPXZ335');}`,
+        }}
+      />
+
       <title>{title}</title>
     </Head>
   );
