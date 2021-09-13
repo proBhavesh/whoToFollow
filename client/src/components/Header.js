@@ -20,12 +20,12 @@ const Header = () => {
 							Get a list of people to Follow on Twitter who are
 							expert in their fields.
 						</p>
-						<div className="mt-12 mb-0 flex ">
+						<div className="mt-12 mb-0 ">
 							<form
 								acceptCharset="UTF-8"
 								action="https://www.formbackend.com/f/0698d758eddc634e"
 								method="POST"
-								className=" flex"
+								className=" flex flex-col flex-wrap md:flex-row"
 							>
 								<input
 									type="email" id="email" name="email" required
