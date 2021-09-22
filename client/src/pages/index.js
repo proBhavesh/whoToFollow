@@ -6,7 +6,7 @@ import { Navbar } from "../components/Navbar.js";
 import Team from "../components/Team";
 import Pricing from "../components/Pricing";
 import Footer from "../components/Footer";
-//page comonent
+//page component
 export default function index() {
   return (
     <>
